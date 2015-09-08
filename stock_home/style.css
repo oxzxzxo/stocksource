@@ -1,0 +1,22 @@
+/* 일은 대충대충 대충해요 */
+
+body { margin: 0; }
+div, span, label { overflow: hidden; }
+
+.top-bar {  height: 45px;  line-height: 45px;  position: relative;  background: #111111;  margin-bottom: 1.875em; }
+.top-bar ul {  margin: 0;  list-style-type: none; }
+
+.loginForm { width: 800px;  height: 230px;   margin: 0px auto;   margin-top: 50px;  background: url('/images/loginBg.png') no-repeat; }
+.loginForm div { float: left; }
+.loginForm .inputForm { width: 40%; height: 100px; margin: 8% 12%; }
+.loginForm .buttonBlack { width: 120px; height: 70px; line-height: 70px; margin: 8% 0%; background: url('/images/buttonBlack.png') no-repeat; text-align: center; }
+.loginForm .inputForm input { display: block;  width: 180px;  height: 21px; color: #595959;  padding: 3px 4px 1px;  border: 1px solid #d9d9d9; }
+.loginForm .inputForm span { float: left;  padding-left: 10px;  padding-top: 4px;  width: 100px; }
+.loginForm .inputForm label { margin-bottom: 6px; }
+
+.white { color: white; }
+.left { float: left; }
+.right { float: right; margin-right: 2%; }
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
